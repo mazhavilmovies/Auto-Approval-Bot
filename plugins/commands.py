@@ -20,7 +20,7 @@ async def start_message(c,m):
         caption=f"<b>Hello {m.from_user.mention} 👋\n\nI Am Join Request Acceptor Bot. I Can Accept All Old Pending Join Request.\n\nFor All Pending Join Request Use - /accept</b>",
         reply_markup=InlineKeyboardMarkup(
             [[
-                InlineKeyboardButton('🍻 Aᴅᴅ Tᴏ Cʜᴀᴛ 🍻', url='https://t.me/Mazhavil_approver_bot?startgroup')
+                InlineKeyboardButton('🍻 Aᴅᴅ Tᴏ Cʜᴀᴛ 🍻', url='https://t.me/Mazhavil_approver_bot?startchannel=Bots4Sale&admin=invite_users+manage_chat')
             ],[
                 InlineKeyboardButton("⚓ Uᴘᴅᴀᴛᴇꜱ ⚓", url='https://t.me/+NE3VMORHtoU3OWU1'),
                 InlineKeyboardButton("💥 Sᴜᴘᴘᴏʀᴛ 💥", url='https://t.me/+qYhaDTohl9I1YWY1')
